@@ -1,0 +1,10 @@
+ Python Program to Print Odd Numbers from M to N using while loop
+
+num = int(input(" Please Enter the Maximum Value : "))
+
+number = M
+
+while number <= num:
+    if(number % 2 != 0):
+        print("{0}".format(number))
+    number = number + M
